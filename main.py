@@ -6,9 +6,9 @@ if __name__ == '__main__':
     store.add('Груши', 7)
     store.add('Пчелы', 10)
     shop = Shop()
-    store.add('Яблоки', 1)
-    store.add('Груши', 2)
-    store.add('Пчелы', 3)
+    shop.add('Яблоки', 1)
+    shop.add('Груши', 2)
+    shop.add('Пчелы', 3)
 
     user_string = input('Введите строку по примеру\n'
                         'Доставить 3 печеньки из склад в магазин\n')

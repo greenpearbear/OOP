@@ -51,7 +51,7 @@ class Store(Storage):
             if title == key:
                 search_title = True
                 if self._items[key] - count >= 0:
-                    self._items[key] -= count
+                    self._items[key] = self._items[key] - count
                 else:
                     print(f'Слишком мало {title}')
         if not search_title:
